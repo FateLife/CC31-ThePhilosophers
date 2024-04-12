@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Locations\Citadel.png" />
+    <None Remove="Images\Locations\Crest.png" />
+    <None Remove="Images\Locations\DarkLair.png" />
+    <None Remove="Images\Locations\Fadewood.png" />
+    <None Remove="Images\Locations\Home.png" />
+    <None Remove="Images\Locations\Maple.png" />
+    <None Remove="Images\Locations\Mountain.png" />
+    <None Remove="Images\Locations\Murkwood.png" />
+    <None Remove="Images\Locations\Mystic.png" />
+    <None Remove="Images\Locations\Ridge.png" />
+    <None Remove="Images\Locations\Sanctum.jpg" />
+    <None Remove="Images\Locations\Station.png" />
+    <None Remove="Images\Locations\TownH.png" />
+    <None Remove="Images\Locations\TownP.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\Citadel.png" />
+    <Resource Include="Images\Locations\Crest.png" />
+    <Resource Include="Images\Locations\DarkLair.png" />
+    <Resource Include="Images\Locations\Fadewood.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\Mountain.png" />
+    <Resource Include="Images\Locations\Murkwood.png" />
+    <Resource Include="Images\Locations\Mystic.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\Maple.png" />
+    <Resource Include="Images\Locations\Ridge.png" />
+    <Resource Include="Images\Locations\Sanctum.jpg" />
+    <Resource Include="Images\Locations\Station.png" />
+    <Resource Include="Images\Locations\TownH.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\Home.png" />
+    <Resource Include="Images\Locations\TownP.png" />
+  </ItemGroup>
+
+</Project>
